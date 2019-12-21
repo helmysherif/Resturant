@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+$color1:#282828;
+$color2:#01a8e9;
+.content1
+{
+    .row
+    {
+        .col-lg-4
+        {
+            .booking
+            {
+                color:$color1;
+                @extend .fonts;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 28px;
+                margin:25px 0 0 0;
+                display: block;
+                font-weight: 600;
+            }
+            .booking2
+            {
+                text-transform: uppercase;
+                color: rgba(40,40,40, 0.5);
+                font-size: 14px;
+                position: relative;
+                top: -5px;
+            }
+        }
+        .col-lg-8
+        {
+            .navbar
+            {
+                line-height: 65px;
+                background: #fff;
+                float: right;
+                padding-top:15px;
+            }
+            .navbar
+            {
+                .nav-item
+                {
+                    &.active
+                    {
+                        .nav-link
+                        {
+                            color:$color2;
+                        }
+                    }
+                }
+                .nav-link
+                {
+                    padding-right: 30px;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    font-weight: 500;
+                    color:$color1;
+                    &:hover
+                    {
+                        color:$color2;
+                    }
+                }
+            }
+        }
+    }
+}
+.content2
+{
+    position: relative;
+}
+.content3
+{
+    position: absolute;
+    top:50%;
+    width:100%;
+}
+
+.content4
+{
+    padding-bottom:100px;
+    .row
+    {
+        .col-lg-4
+        {
+            .booking3
+            {
+                padding:25px 0;
+                background: $color2;
+                width:100%;
+                color:#fff;
+                text-align: center;
+                margin-top:75px;
+            }
+            .booking3
+            {
+                span
+                {
+                    text-transform: uppercase;
+                    font-size: 17px;
+                    font-weight: 400;
+                }
+                h5
+                {
+                    text-transform: uppercase;
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+            }
+            .reserve
+            {
+                padding: 20px;
+                box-shadow: 0 0 8px #ececec;
+                background: #fff;
+            }
+            .reserve
+            {
+                input
+                {
+                    width:100%;
+                    border:0;
+                    border-bottom:1px solid #ededed;
+                    padding-left: 10px;
+                    height:45px;
+                    margin-bottom:20px;
+                }
+                .arrive
+                {
+                    position: relative;
+                }
+                .cal1
+                {
+                    position: absolute;
+                    right: 44px;
+                    top: 360px;
+                    color:#bbb;
+                    font-size: 20px;
+                }
+                .cal2
+                {
+                    position: absolute;
+                    right: 44px;
+                    top: 425px;
+                    color:#bbb;
+                    font-size: 20px;
+                }
+                .form-control
+                {
+                    width:100%;
+                    
+                    padding-left: 10px;
+                    height:45px;
+                    margin-bottom:20px;
+                    border-radius: 0;
+                }
+                .btn
+                {
+                    margin:43px 0 auto 0;
+                    background: $color2;
+                    text-transform: uppercase;
+                    font-size: 19px;
+                    @extend .fonts;
+                    border-radius: 25px;
+                    font-weight: 700;
+                    margin-bottom:20px;
+                    padding:10px 50px;
+                }
+            }
+        }
+        .col-lg-8
+        {
+            h1
+            {
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 32px;
+                @extend .fonts;
+                padding-top:50px;
+                color:$color1;
+            }
+            p
+            {
+                text-align: center;
+                font-size: 17px;
+                padding-top:15px;
+                color:$color1;
+                padding-bottom:50px;
+            }
+            img
+            {
+                width:100%;
+                position: relative;
+            }
+            .caption
+            {
+                position: absolute;
+                top:80%;
+                bottom:0;
+                width:88.6%;
+                background: rgba(0, 0, 0, 0.2);
+                padding: 10px;
+                text-align: center;
+                color:#fff;
+                transition: .4s;
+                span
+                {
+                    text-transform:uppercase;
+                    font-weight:700;
+                    font-size:16px;
+                }
+            }
+            .photo
+            {
+                transition: .4s;
+                &:hover
+                {
+                    .caption
+                    {
+                        top:0;
+                        padding-top:120px;
+                    }
+                }
+            }
+        }
+    }
+}
+.content5
+{
+    padding-bottom:100px;
+    h1
+    {
+        text-align: center;
+        text-transform: uppercase;
+        padding:50px 0 80px 0;
+        @extend .fonts;
+        font-weight: 700;
+        font-size: 29px;
+    }
+    .container
+    {
+        padding-bottom:100px;
+        border-bottom:1px solid #f0f0f0;
+    }
+    .row
+    {
+        .col-lg-6
+        {
+            img
+            {
+                width:100%;
+            }
+            .text2
+            {
+                margin-top:-40px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #282828;
+                border: solid 3px $color2;
+                width: 115%;
+                height: 450px;
+                overflow: hidden;
+                float: right;
+                box-sizing: border-box;
+                padding: 60px 60px 60px 110px;
+            }
+            .text2
+            {
+                p
+                {
+                    text-transform: uppercase;
+                    color:$color1;
+                    padding: 0 0 0px;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+                span
+                {
+                    font-size: 18px;
+                }
+                ul
+                {
+                    margin:0;
+                    padding:0;
+                    list-style: none;
+                    padding-top:20px;
+                }
+                ul
+                {
+                    li
+                    {
+                        list-style: none;
+                        margin-bottom:10px;
+                    }
+                    li
+                    {
+                        i
+                        {
+                            margin-right: 15px;
+                            font-size: 18px;
+                            position: relative;
+                            top:1px;
+                            color:$color2;
+                        }
+                    }
+                }
+                .btn
+                {
+                    margin:43px 0 auto 0;
+                    background: $color2;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    @extend .fonts;
+                    border-radius: 25px;
+                    font-weight: 700;
+                    margin-bottom:20px;
+                    padding:10px 20px;
+                }
+            }
+        }
+    }
+}
+
+.content6
+{
+    padding-bottom:100px;
+    .row
+    {
+        .col-lg-6
+        {
+            img
+            {
+                width:100%;
+                margin-left: -85px;
+            }
+            .text2
+            {
+                margin-top:-40px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #282828;
+                background: #f7f7f7;
+                width: 115%;
+                height: 450px;
+                overflow: hidden;
+                float: right;
+                box-sizing: border-box;
+                padding: 60px 60px 60px 110px;
+            }
+            .text2
+            {
+                p
+                {
+                    text-transform: uppercase;
+                    color:$color1;
+                    padding: 0 0 0px;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+                span
+                {
+                    font-size: 18px;
+                }
+                ul
+                {
+                    margin:0;
+                    padding:0;
+                    list-style: none;
+                    padding-top:20px;
+                }
+                ul
+                {
+                    li
+                    {
+                        list-style: none;
+                        margin-bottom:10px;
+                    }
+                    li
+                    {
+                        i
+                        {
+                            margin-right: 15px;
+                            font-size: 18px;
+                            position: relative;
+                            top:1px;
+                            color:$color2;
+                        }
+                    }
+                }
+                .btn
+                {
+                    margin:43px 0 auto 0;
+                    background: $color1;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    @extend .fonts;
+                    border-radius: 25px;
+                    font-weight: 700;
+                    margin-bottom:20px;
+                    padding:10px 20px;
+                    border:0;
+                }
+            }
+        }
+    }
+}
+.content7
+{
+    background: #f7f7f7;
+    margin-bottom:500px;
+    .row
+    {
+        .col-lg-12
+        {
+            p
+            {
+                text-align: center;
+                color:#282828;
+                @extend .fonts;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 30px;
+                padding-top:50px;
+                padding-bottom:50px;
+            }
+            
+        }
+    }
+}
+// classes to extend
+.fonts
+{
+    font-family: 'Lora', serif;
+}
